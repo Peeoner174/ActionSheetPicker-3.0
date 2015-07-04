@@ -449,7 +449,9 @@ CG_INLINE BOOL isIPhone4() {
         [barItems addObject:labelButton];
         [barItems addObject:flexSpace];
     }
-    [barItems addObject:self.doneBarButtonItem];
+     if (!self.hideDone) {
+         [barItems addObject:self.doneBarButtonItem];
+     }
 
     [pickerToolbar setItems:barItems animated:NO];
     return pickerToolbar;
