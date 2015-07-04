@@ -51,8 +51,6 @@ CG_INLINE BOOL isIPhone4() {
 @interface AbstractActionSheetPicker ()<UIGestureRecognizerDelegate>
 
 @property(nonatomic, strong) UIBarButtonItem *barButtonItem;
-@property(nonatomic, strong) UIBarButtonItem *doneBarButtonItem;
-@property(nonatomic, strong) UIBarButtonItem *cancelBarButtonItem;
 @property(nonatomic, strong) UIView *containerView;
 @property(nonatomic, unsafe_unretained) id target;
 @property(nonatomic, assign) SEL successAction;

@@ -31,7 +31,6 @@
 
 @interface ActionSheetDatePicker()
 @property (nonatomic, assign) UIDatePickerMode datePickerMode;
-@property (nonatomic, strong) NSDate *selectedDate;
 @end
 
 @implementation ActionSheetDatePicker
