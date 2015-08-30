@@ -73,6 +73,7 @@ static NSString *const kActionTarget  = @"buttonActionTarget";
 @property (nonatomic, strong) NSMutableArray *customButtons;
 @property (nonatomic, assign) BOOL hideCancel; // show or hide cancel button.
 @property (nonatomic, assign) BOOL hideDone;
+@property (nonatomic, strong) UIColor* tintColor;
 @property (nonatomic, assign) CGRect presentFromRect;
 @property (nonatomic) NSDictionary *titleTextAttributes; // default is nil. Used to specify Title Label attributes.
 @property (nonatomic) NSAttributedString *attributedTitle; // default is nil. If titleTextAttributes not nil this value ignored.

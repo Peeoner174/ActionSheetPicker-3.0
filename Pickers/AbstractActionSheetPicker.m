@@ -117,6 +117,8 @@ CG_INLINE BOOL isIPhone4() {
         UIBarButtonItem *sysCancelButton = [[UIBarButtonItem alloc] initWithTitle:@"Отмена" style:UIBarButtonItemStylePlain target:self action:@selector(actionPickerCancel:)];
 
 
+        sysDoneButton.tintColor = self.tintColor;
+        sysCancelButton.tintColor = self.tintColor;
 
 
         [self setCancelBarButtonItem:sysCancelButton];
